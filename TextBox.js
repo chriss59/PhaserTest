@@ -5,7 +5,7 @@ var TextBox = {};
 
 //Stone Text
 TextBox.createTextBox = function(game) {
-    var haiku = "Turtles and mushrooms\nYou are in the wrong castle\nFireball mustache";
+    var haiku = "Hey!\nThis is a simple\nTest TextBox";
     var text = game.add.text(100, 64, haiku, {
         font: "32px Arial",
         fill: "#ffffff",
